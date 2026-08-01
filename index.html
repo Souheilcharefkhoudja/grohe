@@ -165,7 +165,8 @@
     border-top:1px solid var(--line);overflow:hidden;
   }
   .concept .wrap{position:relative;z-index:1}
-  .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin-top:80px;background:var(--line);border:1px solid var(--line)}
+  .grid-3{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;margin-top:80px;background:var(--line);border:1px solid var(--line)}
+  @media(max-width:1100px){.grid-3{grid-template-columns:repeat(2,1fr)}}
   .card{
     background:rgba(6,15,36,.92);backdrop-filter:blur(8px);
     padding:52px 40px;min-height:320px;
@@ -356,35 +357,42 @@
 
 <section id="concept" class="concept">
   <div class="wrap">
-    <div class="kicker"><span data-lang="en" class="on">The Craft</span><span data-lang="fr">Le Savoir-faire</span></div>
+    <div class="kicker"><span data-lang="en" class="on">The Promise</span><span data-lang="fr">La Promesse</span></div>
     <h2>
-      <span data-lang-block="en" class="on">An <em>obsession</em> with water.<br>An identity of precision.</span>
-      <span data-lang-block="fr">Une <em>obsession</em> de l'eau.<br>Une identité de précision.</span>
+      <span data-lang-block="en" class="on">For every space where <em>water matters.</em></span>
+      <span data-lang-block="fr">Pour chaque espace où <em>l'eau compte.</em></span>
     </h2>
     <p class="lede">
-      <span data-lang="en" class="on">Materials chosen with intent, mechanisms engineered to the micron, finishes polished by hand. Every fitting is a signature — calibrated for a lifetime of daily use.</span>
-      <span data-lang="fr">Des matériaux choisis avec intention, des mécanismes usinés au micron, des finitions polies à la main. Chaque robinet est une signature — pensé pour une vie d'usage quotidien.</span>
+      <span data-lang="en" class="on">From the serene sanctuary of the bathroom to the dynamic heart of the kitchen, we design solutions that elevate every experience with water. Discover precision-crafted products designed for life, delivering seamless integration for professionals while bringing Pure Freude an Wasser — the pure joy of water — to every home. This promise is built on our four core pillars: exceptional quality in fit, feel and finish, benefit-driven technology, award-winning design, and a deep commitment to sustainability.</span>
+      <span data-lang="fr">Du sanctuaire serein de la salle de bain au cœur dynamique de la cuisine, nous concevons des solutions qui subliment chaque expérience de l'eau. Découvrez des produits façonnés avec précision, pensés pour la vie, offrant une intégration fluide aux professionnels tout en apportant Pure Freude an Wasser — le pur plaisir de l'eau — à chaque foyer. Cette promesse repose sur nos quatre piliers : une qualité d'exception dans la finition, le toucher et le design, une technologie au service de l'utilisateur, un design primé et un engagement profond pour la durabilité.</span>
     </p>
     <div class="grid-3">
       <div class="card">
         <div class="num">01</div>
         <div>
-          <h3><span data-lang="en" class="on">Engineered in Germany</span><span data-lang="fr">Conçu en Allemagne</span></h3>
-          <p><span data-lang="en" class="on">Every cartridge, every joint, tested to endure decades of daily use. Zero compromise on longevity or flow.</span><span data-lang="fr">Chaque cartouche, chaque joint, testé pour endurer des décennies d'usage. Aucun compromis sur la longévité.</span></p>
+          <h3><span data-lang="en" class="on">Exceptional Quality</span><span data-lang="fr">Qualité d'Exception</span></h3>
+          <p><span data-lang="en" class="on">Uncompromising fit, feel and finish. Every fitting engineered in Germany to endure decades of daily use.</span><span data-lang="fr">Un ajustement, un toucher et une finition sans compromis. Chaque robinet conçu en Allemagne pour durer des décennies.</span></p>
         </div>
       </div>
       <div class="card">
         <div class="num">02</div>
         <div>
-          <h3><span data-lang="en" class="on">Signature design language</span><span data-lang="fr">Un langage de design signature</span></h3>
-          <p><span data-lang="en" class="on">Marble, chrome, warm brass. A finish for every architecture — bathroom, kitchen, wellness. Content-worthy by design.</span><span data-lang="fr">Marbre, chrome, laiton chaud. Une finition pour chaque architecture — salle de bain, cuisine, bien-être.</span></p>
+          <h3><span data-lang="en" class="on">Benefit-Driven Technology</span><span data-lang="fr">Technologie Utile</span></h3>
+          <p><span data-lang="en" class="on">Innovations that serve the user first — from SilkMove cartridges to GROHE Blue and GROHE Sense.</span><span data-lang="fr">Des innovations pensées pour l'utilisateur — des cartouches SilkMove à GROHE Blue et GROHE Sense.</span></p>
         </div>
       </div>
       <div class="card">
         <div class="num">03</div>
         <div>
-          <h3><span data-lang="en" class="on">A partnered clientele</span><span data-lang="fr">Une clientèle partenaire</span></h3>
-          <p><span data-lang="en" class="on">Architects, designers, developers — GROHE is specified for projects where the last 1% defines the whole.</span><span data-lang="fr">Architectes, designers, promoteurs — GROHE est prescrit là où le dernier 1% définit l'ensemble.</span></p>
+          <h3><span data-lang="en" class="on">Award-Winning Design</span><span data-lang="fr">Design Primé</span></h3>
+          <p><span data-lang="en" class="on">Over 400 international design awards. A language of form recognized by architects and designers worldwide.</span><span data-lang="fr">Plus de 400 récompenses internationales. Un langage de forme reconnu par les architectes et designers du monde entier.</span></p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="num">04</div>
+        <div>
+          <h3><span data-lang="en" class="on">Committed to Sustainability</span><span data-lang="fr">Engagé pour la Durabilité</span></h3>
+          <p><span data-lang="en" class="on">CO₂-neutral production, EcoJoy water-saving technology, and packaging free of single-use plastics.</span><span data-lang="fr">Production neutre en CO₂, technologie EcoJoy d'économie d'eau, emballages sans plastique à usage unique.</span></p>
         </div>
       </div>
     </div>
