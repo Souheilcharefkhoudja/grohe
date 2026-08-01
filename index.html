@@ -110,7 +110,14 @@
   /* ————— HERO ————— */
   .hero{
     background:var(--navy);color:#fff;
-    padding:60px 0 120px;position:relative;overflow:hidden;
+    padding:120px 0 160px;position:relative;overflow:hidden;
+    min-height:600px;display:flex;align-items:center;
+  }
+  .hero::before{
+    content:"";position:absolute;inset:0;z-index:0;
+    background:
+      linear-gradient(90deg, rgba(0,26,61,.85) 0%, rgba(0,26,61,.65) 50%, rgba(0,26,61,.35) 100%),
+      url('https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=2000&q=80') center/cover no-repeat;
   }
   .hero .wrap{position:relative;z-index:2}
   .hero h1{
@@ -409,7 +416,7 @@
     </div>
     <div class="cards">
       <a href="#" class="prod">
-        <div class="img"><img src="assets/faucet-marble.jpg" alt="" /></div>
+        <div class="img"><img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80" alt="" onerror="this.src='assets/faucet-marble.jpg'" /></div>
         <div class="body">
           <div class="tag"><span data-lang="en" class="on">Bathroom</span><span data-lang="fr">Salle de bain</span></div>
           <h3><span data-lang="en" class="on">Allure Brilliant</span><span data-lang="fr">Allure Brilliant</span></h3>
@@ -418,7 +425,7 @@
         </div>
       </a>
       <a href="#" class="prod">
-        <div class="img"><img src="assets/faucet-mood.jpg" alt="" /></div>
+        <div class="img"><img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=1200&q=80" alt="" onerror="this.src='assets/faucet-mood.jpg'" /></div>
         <div class="body">
           <div class="tag"><span data-lang="en" class="on">Kitchen</span><span data-lang="fr">Cuisine</span></div>
           <h3><span data-lang="en" class="on">Essence Kitchen</span><span data-lang="fr">Essence Cuisine</span></h3>
@@ -427,11 +434,11 @@
         </div>
       </a>
       <a href="#" class="prod">
-        <div class="img"><img src="assets/faucet-colors.jpg" alt="" /></div>
+        <div class="img"><img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=1200&q=80" alt="" onerror="this.src='assets/faucet-colors.jpg'" /></div>
         <div class="body">
-          <div class="tag"><span data-lang="en" class="on">Colors</span><span data-lang="fr">Couleurs</span></div>
-          <h3><span data-lang="en" class="on">Colors Collection</span><span data-lang="fr">Collection Couleurs</span></h3>
-          <p><span data-lang="en" class="on">Six finishes — from Warm Sunset to Brushed Hard Graphite — a home in every home.</span><span data-lang="fr">Six finitions — du Warm Sunset au Brushed Hard Graphite — un chez-soi pour chaque foyer.</span></p>
+          <div class="tag"><span data-lang="en" class="on">Wellness</span><span data-lang="fr">Bien-être</span></div>
+          <h3><span data-lang="en" class="on">Rainshower SmartControl</span><span data-lang="fr">Rainshower SmartControl</span></h3>
+          <p><span data-lang="en" class="on">A shower experience that stays with you — precision spray patterns, intuitive control.</span><span data-lang="fr">Une expérience de douche qui reste avec vous — jets précis, contrôle intuitif.</span></p>
           <span class="link"><span data-lang="en" class="on">Discover</span><span data-lang="fr">Découvrir</span></span>
         </div>
       </a>
@@ -455,7 +462,7 @@
         <li><span class="n">03</span><div><div class="t"><span data-lang="en" class="on">Lifetime parts availability</span><span data-lang="fr">Pièces disponibles à vie</span></div><div class="d"><span data-lang="en" class="on">Every cartridge kept in production. Never obsolete.</span><span data-lang="fr">Chaque cartouche maintenue en production. Jamais obsolète.</span></div></div></li>
       </ul>
     </div>
-    <div class="visual"><img src="assets/hero.jpg" alt="" /></div>
+    <div class="visual"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80" alt="" onerror="this.src='assets/hero.jpg'" /></div>
   </div>
 </section>
 
